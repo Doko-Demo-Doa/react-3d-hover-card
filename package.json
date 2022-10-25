@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "./dist/react-3d-hover-card.umd.js",
   "module": "./dist/react-3d-hover-card.es.js",
-  "types": "./dist/lib/main.d.ts",
+  "types": "./dist/main.d.ts",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,7 +16,8 @@
     "ci": "npm run lint && npm run type-check"
   },
   "files": [
-    "dist"
+    "dist",
+    "dist/*.css"
   ],
   "exports": {
     ".": {
@@ -37,7 +38,6 @@
     "@types/react-dom": "18.0.6",
     "@vanilla-extract/vite-plugin": "3.6.1",
     "@vitejs/plugin-react": "2.1.0",
-    "clsx": "1.2.1",
     "typescript": "4.6.4",
     "vite": "3.1.0"
   },
