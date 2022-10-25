@@ -1,5 +1,7 @@
 # React 3D hover card
 
+[Live demo](https://darenft-labs.github.io/react-3d-hover-card/)
+
 Library to create 3D hover card effect (like Steam trading card)
 
 ```
