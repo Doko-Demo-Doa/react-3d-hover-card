@@ -1,5 +1,5 @@
 {
-  "name": "react-3d-hover-card",
+  "name": "@darenft/react-3d-hover-card",
   "author": "Quan Pham <quan.pham@darenft.com>",
   "description": "React hover card component. Inspired from Steam Trading Card effect ",
   "private": true,
