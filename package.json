@@ -1,5 +1,7 @@
 {
   "name": "react-3d-hover-card",
+  "author": "Quan Pham <quan.pham@darenft.com>",
+  "description": "React hover card component. Inspired from Steam Trading Card effect ",
   "private": true,
   "version": "1.0.0",
   "license": "MIT",
@@ -14,6 +16,9 @@
     "type-check": "tsc --project tsconfig.json --pretty --noEmit",
     "ci": "npm run lint && npm run type-check"
   },
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": "./dist/react-3d-hover-card.es.js",
@@ -37,5 +42,8 @@
     "clsx": "1.2.1",
     "typescript": "4.6.4",
     "vite": "3.1.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.x"
   }
 }
