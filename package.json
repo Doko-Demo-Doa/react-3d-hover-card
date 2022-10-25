@@ -27,7 +27,6 @@
   },
   "dependencies": {
     "@vanilla-extract/css": "1.9.1",
-    "rainbow-sprinkles": "0.14.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "vite-plugin-dts": "1.6.6",
