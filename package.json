@@ -19,6 +19,16 @@
     "dist",
     "dist/*.css"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/react-3d-hover-card.es.js",
+      "require": "./dist/react-3d-hover-card.umd.cjs"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
   "dependencies": {
     "@vanilla-extract/css": "1.9.1",
     "react": "18.2.0",
