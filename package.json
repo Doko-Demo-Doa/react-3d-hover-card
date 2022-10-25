@@ -3,7 +3,7 @@
   "author": "Quan Pham <quan.pham@darenft.com>",
   "description": "React hover card component. Inspired from Steam Trading Card effect ",
   "private": true,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "./dist/react-3d-hover-card.umd.js",
   "module": "./dist/react-3d-hover-card.es.js",
