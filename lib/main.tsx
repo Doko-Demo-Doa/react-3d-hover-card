@@ -1,5 +1,4 @@
 import React from "react";
-import clsx from "clsx";
 import { wrapper } from "./main.css";
 
 interface Props {
@@ -60,7 +59,7 @@ const SteamCard: React.FC<Props> = ({ children, scaleFactor }) => {
   }
 
   return (
-    <div ref={ref} className={clsx(wrapper)}>
+    <div ref={ref} className={wrapper}>
       <div
         style={{
           transition: "all 200ms ease-out",

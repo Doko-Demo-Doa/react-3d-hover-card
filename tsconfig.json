@@ -14,7 +14,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@darenft/react-3d-hover-card": ["./lib/main.tsx"]
+    }
   },
   "include": ["src", "./lib"],
   "references": [{ "path": "./tsconfig.node.json" }]
