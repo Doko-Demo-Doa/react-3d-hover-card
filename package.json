@@ -1,0 +1,41 @@
+{
+  "name": "react-3d-hover-card",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./dist/react-3d-hover-card.umd.js",
+  "module": "./dist/react-3d-hover-card.es.js",
+  "types": "./dist/lib/main.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
+    "ci": "npm run lint && npm run type-check"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/react-3d-hover-card.es.js",
+      "require": "./dist/react-3d-hover-card.umd.cjs"
+    }
+  },
+  "dependencies": {
+    "@vanilla-extract/css": "1.9.1",
+    "rainbow-sprinkles": "0.14.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "vite-plugin-dts": "1.6.6",
+    "vite-tsconfig-paths": "3.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.5",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@vanilla-extract/vite-plugin": "3.6.1",
+    "@vitejs/plugin-react": "2.1.0",
+    "clsx": "1.2.1",
+    "typescript": "4.6.4",
+    "vite": "3.1.0"
+  }
+}
