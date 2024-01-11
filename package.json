@@ -1,8 +1,8 @@
 {
   "name": "@darenft/react-3d-hover-card",
-  "author": "Quan Pham <quan.pham@darenft.com>",
+  "author": "Quan Pham <phamvanquan@live.com>",
   "description": "React hover card component. Inspired from Steam Trading Card effect ",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "MIT",
   "main": "./dist/react-3d-hover-card.umd.js",
   "module": "./dist/react-3d-hover-card.es.js",
@@ -30,20 +30,20 @@
     }
   },
   "dependencies": {
-    "@vanilla-extract/css": "1.9.1",
+    "@vanilla-extract/css": "1.14.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "vite-plugin-dts": "1.6.6",
-    "vite-tsconfig-paths": "3.5.2"
+    "vite-plugin-dts": "3.7.0",
+    "vite-tsconfig-paths": "4.2.3"
   },
   "devDependencies": {
-    "@types/node": "18.11.5",
-    "@types/react": "18.0.17",
-    "@types/react-dom": "18.0.6",
-    "@vanilla-extract/vite-plugin": "3.6.1",
-    "@vitejs/plugin-react": "2.1.0",
-    "typescript": "4.6.4",
-    "vite": "3.1.0"
+    "@types/node": "20.11.0",
+    "@types/react": "18.2.47",
+    "@types/react-dom": "18.2.18",
+    "@vanilla-extract/vite-plugin": "3.9.3",
+    "@vitejs/plugin-react": "4.2.1",
+    "typescript": "5.3.3",
+    "vite": "5.0.11"
   },
   "peerDependencies": {
     "react": ">=18.x"
